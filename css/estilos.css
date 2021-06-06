@@ -585,3 +585,10 @@ background-color: var(--purple-light);
 		 }
    
 		 /* fin BOTONES DE REDES SOCILAES*/
+
+/* -----Ubicacion ----- */
+.ubicacion{
+
+	position: relative;
+	top: -1px;
+}
