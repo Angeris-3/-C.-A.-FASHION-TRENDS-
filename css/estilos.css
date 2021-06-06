@@ -231,3 +231,11 @@ background-color: var(--purple-light);
 /* ------------------------- */
 /* fin menu */
 /* ------------------------- */
+
+
+/* -----Ubicacion ----- */
+.ubicacion{
+
+	position: relative;
+	top: -1px;
+}
