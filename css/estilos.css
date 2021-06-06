@@ -62,7 +62,9 @@ p {
 /* Header */
 /* ------------------------- */
 
-/* ------------------------- */
+
+
+
 /* Menu */
 /* ------------------------- */
 
@@ -232,6 +234,357 @@ background-color: var(--purple-light);
 /* fin menu */
 /* ------------------------- */
 
+/* ------------------------- */
+/* Buscador */
+/* ------------------------- */
+
+.webdesigntuts-workshop form {
+	background: #111;
+	background: -webkit-linear-gradient(#1b1b1b, #111);
+	background: -moz-linear-gradient(#1b1b1b, #111);
+	background: -o-linear-gradient(#1b1b1b, #111);
+	background: -ms-linear-gradient(#1b1b1b, #111);
+	background: linear-gradient(#1b1b1b, #111);
+	border: 1px solid #000;
+	border-radius: 5px;
+	box-shadow: inset 0 0 0 1px #272727;
+	display: inline-block;
+	font-size: 0px;
+	margin: 150px auto 0;
+	padding: 20px;
+	position: relative;
+	z-index: 1;
+	top: -160px;
+}
+
+.webdesigntuts-workshop input {
+	background: #222;
+	background: -webkit-linear-gradient(#333, #222);	
+	background: -moz-linear-gradient(#333, #222);	
+	background: -o-linear-gradient(#333, #222);	
+	background: -ms-linear-gradient(#333, #222);	
+	background: linear-gradient(#333, #222);	
+	border: 1px solid #444;
+	border-radius: 5px 0 0 5px;
+	box-shadow: 0 2px 0 #000;
+	color: #888;
+	display: block;
+	float: left;
+	font-family: 'Cabin', helvetica, arial, sans-serif;
+	font-size: 13px;
+	font-weight: 400;
+	height: 40px;
+	margin: 0;
+	padding: 0 10px;
+	text-shadow: 0 -1px 0 #000;
+	width: 300px;
+}
+
+
+
+.webdesigntuts-workshop input:focus {
+	-webkit-animation: glow 800ms ease-out infinite alternate;
+	-moz-animation: glow 800ms ease-out infinite alternate;
+	-o-animation: glow 800ms ease-out infinite alternate;
+	-ms-animation: glow 800ms ease-out infinite alternate;
+	animation: glow 800ms ease-out infinite alternate;
+	background: #222922;
+	background: -webkit-linear-gradient(#333933, #222922);
+	background: -moz-linear-gradient(#333933, #222922);
+	background: -o-linear-gradient(#333933, #222922);
+	background: -ms-linear-gradient(#333933, #222922);
+	background: linear-gradient(#333933, #222922);
+	border-color: #393;
+	box-shadow: 0 0 5px rgba(0,255,0,.2), inset 0 0 5px rgba(0,255,0,.1), 0 2px 0 #000;
+	color: #efe;
+	outline: none;
+}
+
+
+.webdesigntuts-workshop button {
+	background: #222;
+	background: -webkit-linear-gradient(#333, #222);
+	background: -moz-linear-gradient(#333, #222);
+	background: -o-linear-gradient(#333, #222);
+	background: -ms-linear-gradient(#333, #222);
+	background: linear-gradient(#333, #222);
+	-webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	-o-box-sizing: content-box;
+	-ms-box-sizing: content-box;
+	box-sizing: content-box;
+	border: 1px solid #444;
+	border-left-color: #000;
+	border-radius: 0 5px 5px 0;
+	box-shadow: 0 2px 0 #000;
+	color: #fff;
+	display: block;
+	float: left;
+	font-family: 'Cabin', helvetica, arial, sans-serif;
+	font-size: 13px;
+	font-weight: 400;
+	height: 40px;
+	line-height: 40px;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	text-shadow: 0 -1px 0 #000;
+	width: 80px;
+}	
+
+.webdesigntuts-workshop button:hover,
+.webdesigntuts-workshop button:focus {
+	background: #292929;
+	background: -webkit-linear-gradient(#393939, #292929);	
+	background: -moz-linear-gradient(#393939, #292929);	
+	background: -o-linear-gradient(#393939, #292929);	
+	background: -ms-linear-gradient(#393939, #292929);	
+	background: linear-gradient(#393939, #292929);
+	color: #5f5;
+	outline: none;
+}
+
+.webdesigntuts-workshop button:active {
+	background: #292929;
+	background: -webkit-linear-gradient(#393939, #292929);
+	background: -moz-linear-gradient(#393939, #292929);
+	background: -o-linear-gradient(#393939, #292929);
+	background: -ms-linear-gradient(#393939, #292929);
+	background: linear-gradient(#393939, #292929);
+	box-shadow: 0 1px 0 #000, inset 1px 0 1px #222;
+	top: 1px;
+}
+
+
+/* ------------------------- */
+/* Fin de buscador */
+/* ------------------------- */
+
+/* ------------------------- */
+/* Productos */
+/* ------------------------- */
+
+.productos {
+	background: var(--gray-light);
+	padding: 20px;
+	margin-bottom: 60px;
+	position: relative;
+	top: -116px;
+}
+
+.productos .titulo {
+	width: 70%;
+	font-size: 44px;
+	text-transform: uppercase;
+	display: inline-block;
+	margin-bottom: 50px;
+}
+
+.productos .producto {
+	position: relative;
+	width: 100%;
+}
+
+.productos .overlay {
+	width: 0%;
+	height: 100%;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: var(--purple-light);
+	overflow: hidden;
+	transition: .5s ease;
+}
+
+.productos .producto:hover .overlay{
+	width: 100%;
+	opacity: .8;
+}
+
+.productos .producto .overlay-texto {
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	white-space: nowrap;
+	color: var(--white);
+	font-size: 13px;
+	transform: translate(-50%, -50%);
+	overflow: hidden;
+	border-top: 1px solid #fff;
+	border-bottom: 1px solid #fff;
+}
+
+.productos .producto .overlay-texto1 {
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	white-space: nowrap;
+	color: var(--white);
+	font-size: 11px;
+	transform: translate(-50%, -50%);
+	overflow: hidden;
+	border-top: 1px solid #fff;
+	border-bottom: 1px solid #fff;
+}
+
+.productos .btn-productos {
+	background-color: var(--purple-light);
+	color: #fff;
+	padding: 7px 20px;
+	text-transform: uppercase;
+	font-size: 12px;
+	border: 2px solid transparent;
+	transition: .3s ease;
+}
+
+.productos .btn-productos:hover {
+	background-color: transparent;
+	border: 2px solid var(--purple-light);
+	color: var(--purple-light);
+}
+
+
+/* ------------------------- */
+/* Fin Productos */
+/* ------------------------- */
+
+
+/* --------separador--------- */
+
+.separador {
+	width: 100x;
+	height: 290px;
+	background-image: url('../img/fondo.jpg');
+	background-position-x: center;
+	background-size: cover;
+	background-attachment: fixed;
+	margin-bottom: 60px;
+
+}
+
+.separador p {
+	height: 125%;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 24px;
+	font-family: 'Noto Serif', serif;
+	padding: 10px;
+	font-size:150%;
+}
+.espacio-separador{
+	position: relative;
+	top: -60px;
+
+}
+
+/* Fin separador */
+/* -------------------------*/
+
+/*BOTONES DE REDES SOCILAES*/
+.social-buttons {
+	display: flex;
+	position: relative;
+	top: -55px;
+	  flex-wrap: wrap;
+	  justify-content: center;
+	  margin-top: 19px;
+	  margin-left: auto;
+		   margin-right: auto ;
+		
+		 }
+		 .social-buttons__button {
+		   margin: 10px 5px 0;
+		 }
+		 
+		 .social-button {
+		   position: relative;
+		   display: flex;
+		   justify-content: center;
+		   align-items: center;
+		   outline: none;
+		   width: 70px;
+		   height: 70px;
+		   text-decoration: none;
+		 }
+		 .social-button__inner {
+		   position: relative;
+		   display: flex;
+		   align-items: center;
+		   justify-content: center;
+		   width: calc(100% - 2px);
+		   height: calc(100% - 2px);
+		   border-radius: 100%;
+		   background: #fff;
+		   text-align: center;
+		 }
+		 .social-button i,
+		 .social-button svg {
+		   position: relative;
+		   z-index: 1;
+		   transition: 0.3s;
+		 }
+		 .social-button i {
+		   font-size: 28px;
+		 }
+		 .social-button svg {
+		   height: 40%;
+		   width: 40%;
+		 }
+		 .social-button::after {
+		   content: "";
+		   position: absolute;
+		   top: 0;
+		   left: 50%;
+		   display: block;
+		   width: 0;
+		   height: 0;
+		   border-radius: 100%;
+		   transition: 0.3s;
+		 }
+		 .social-button:focus, .social-button:hover {
+		   color: #fff!important;
+		 }
+		 .social-button:focus::after, .social-button:hover::after {
+		   width: 100%;
+		   height: 100%;
+		   margin-left: -50%;
+		 }
+		 
+		 .social-button--facebook {
+		   color: #3b5998 !important;
+		 }
+		 .social-button--facebook::after {
+		   background: #3b5998;
+		 }
+		 .social-button--twitter {
+		   color: #1da1f2 !important;
+		 }
+		 .social-button--twitter::after {
+		   background: #1da1f2;
+		 }
+		 .social-button--pinterest{
+		  color: #bd081c !important;
+		 }
+		 .social-button--pinterest::after {
+		   background: #bd081c;
+		 }
+		 .social-button--youtube {
+		  color: #ff0000 !important;
+		 }
+		 .social-button--youtube::after {
+		   background: #ff0000;
+		 }
+		 .social-button--instagram {
+		  color: #c13584 !important;
+		 }
+		 .social-button--instagram::after {
+		   background: #c13584;
+		 }
+   
+		 /* fin BOTONES DE REDES SOCILAES*/
 
 /* -----Ubicacion ----- */
 .ubicacion{
