@@ -1,0 +1,46 @@
+body{
+	color:rgba(153, 28, 28, 0.616);
+}
+.menu-1{
+	height: 60px;
+	background: #444;
+}
+.slider-1, .slider-2, .slider-3, .slider-4, .slider-5{
+	height: 100vh;
+	text-align: center;
+}
+.slider-1{
+	background-image: url(../img/fond.jpg)
+}
+.slider-2{
+	background: #b80d57;
+}
+.slider-3{
+	background: #e03e36;
+}
+.slider-4{
+	background: #ff7c38;
+}
+.slider-5{
+	background: #b9d479;
+}
+.footer{
+	background: #444;
+	color:#fff;
+	text-align: center;
+	padding: 10px;
+}
+
+.texto {
+	width: calc(100vw - 20px);
+   height: 100vh;
+   font-size: 150px;
+   font-weight: 400;
+   font-family: 'Noto Serif', serif;
+   font-style: italic;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   color: #000;;
+   mix-blend-mode: multiply;
+}
