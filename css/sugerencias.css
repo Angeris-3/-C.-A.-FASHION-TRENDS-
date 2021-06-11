@@ -1,0 +1,601 @@
+
+* protafolio */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+background-color: wheat;
+	font-family: 'Open Sans', sans-serif;
+}
+
+a {
+	text-decoration: none;
+}
+
+.contenedor {
+	width: 90%;
+	max-width: 800px;
+	margin: auto;
+}
+
+/* ------------------------- */
+/* HEADER */
+/* ------------------------- */
+
+header {
+	padding: 40px 0;
+}
+
+header .logo {
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+header .logo p {
+	color: #9B9B9B;
+}
+
+header form {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	margin-bottom: 20px;
+}
+
+header .barra-busqueda {
+	width: 70%;
+	height: 40px;
+	line-height: 40px;
+	background: #fff;
+	padding: 0 20px;
+	border-radius: 100px;
+	border: none;
+	text-align: center;
+	font-size: 16px;
+}
+
+header .categorias {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+header .categorias a {
+	color: #9B9B9B;
+	margin: 10px 20px;
+	font-size: 18px;
+	font-weight: 700;
+}
+
+header .categorias a.activo {
+	color: #000;
+}
+/*fin buscador*/
+
+
+
+
+
+
+@media screen and (max-width: 700px) {
+	.grid .item {
+		width: calc(50% - 20px);
+	}
+
+	header .barra-busqueda {
+		width: 100%;
+	}
+}
+
+
+
+/*imagenes de las recetas con efecto hover */
+
+     /* #1*/
+
+     .contenedor1{
+         
+        position: relative; 
+        top: 200px;
+        left: 7px;
+        width: 100%;
+        display: flex;
+        justify-content: left;
+        align-items: left;
+        height: 100vh;
+       
+    }
+    .contenedor1 figure{
+       position:relative;
+        height: 250px;
+        cursor: pointer;
+        width: 350px;
+        overflow: hidden;
+        border-radius: 6px;
+        box-shadow: 0px 15px 25px rgba(0,0,0,0.50);
+        
+    }
+    .contenedor1 figure img{
+        width: 100%;
+        height: 100%;
+        transition: all 500ms ease-out;
+    }
+    .contenedor1 figure .capa{
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0,103,123,0.7);
+        transition: all 500ms ease-out;
+        opacity: 0;
+        visibility: hidden;
+       text-align: center;
+    }
+    .contenedor1 figure:hover > .capa {
+        opacity: 1;
+        visibility: visible;
+    }
+    .contenedor1 figure:hover > .capa h3{
+        margin-top: 70px;
+        margin-bottom: 15px;
+    }
+    .contenedor1 figure:hover > img{
+        transform: scale(1.3);
+    }
+    .contenedor1 figure .capa h3{
+        color: #fff;
+        font-weight: 400;
+        margin-bottom: 120px;
+        transition: all 500ms ease-out;
+         margin-top: 30px;
+    }
+    .contenedor1 figure .capa p{
+        color: #fff;
+        font-size: 15px;
+        line-height: 1.5;
+        width: 100%;
+        max-width: 220px;
+        margin: auto;
+    }
+
+
+    /*fin #1*//*imagenes de las recetas con efecto hover */
+
+     /* #1*/
+
+     .contenedor1{
+         
+        position: relative; 
+        top: 200px;
+        left: 7px;
+        width: 100%;
+        display: flex;
+        justify-content: left;
+        align-items: left;
+        height: 100vh;
+       
+    }
+    .contenedor1 figure{
+       position:relative;
+        height: 250px;
+        cursor: pointer;
+        width: 350px;
+        overflow: hidden;
+        border-radius: 6px;
+        box-shadow: 0px 15px 25px rgba(0,0,0,0.50);
+        
+    }
+    .contenedor1 figure img{
+        width: 100%;
+        height: 100%;
+        transition: all 500ms ease-out;
+    }
+    .contenedor1 figure .capa{
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 39, 123, 0.7);
+        transition: all 500ms ease-out;
+        opacity: 0;
+        visibility: hidden;
+       text-align: center;
+    }
+    .contenedor1 figure:hover > .capa {
+        opacity: 1;
+        visibility: visible;
+    }
+    .contenedor1 figure:hover > .capa h3{
+        margin-top: 70px;
+        margin-bottom: 15px;
+    }
+    .contenedor1 figure:hover > img{
+        transform: scale(1.3);
+    }
+    .contenedor1 figure .capa h3{
+        color: #fff;
+        font-weight: 400;
+        margin-bottom: 120px;
+        transition: all 500ms ease-out;
+         margin-top: 30px;
+    }
+    .contenedor1 figure .capa p{
+        color: #fff;
+        font-size: 15px;
+        line-height: 1.5;
+        width: 100%;
+        max-width: 220px;
+        margin: auto;
+    }
+
+
+    /*fin #1*/
+
+    /* #2 */
+    .contenedor2{
+        width: 100%;
+        position: relative;
+        top: -305px;
+        left: 363px;
+        display: flex;
+        justify-content: left;
+        align-items: left;
+        height: 100vh;
+    }
+    .contenedor2 figure{
+       position:relative;
+        height: 250px;
+        cursor: pointer;
+        width: 350px;
+        overflow: hidden;
+        border-radius: 6px;
+        box-shadow: 0px 15px 25px rgba(0,0,0,0.50);
+    }
+    .contenedor2 figure img{
+        width: 100%;
+        height: 100%;
+        transition: all 500ms ease-out;
+    }
+    .contenedor2 figure .capa{
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0,103,123,0.7);
+        transition: all 500ms ease-out;
+        opacity: 0;
+        visibility: hidden;
+       text-align: center;
+    }
+    .contenedor2 figure:hover > .capa {
+        opacity: 1;
+        visibility: visible;
+    }
+    .contenedor2 figure:hover > .capa h3{
+        margin-top: 70px;
+        margin-bottom: 15px;
+    }
+    .contenedor2 figure:hover > img{
+        transform: scale(1.3);
+    }
+    .contenedor2 figure .capa h3{
+        color: #fff;
+        font-weight: 400;
+        margin-bottom: 120px;
+        transition: all 500ms ease-out;
+         margin-top: 30px;
+    }
+    .contenedor2 figure .capa p{
+        color: #fff;
+        font-size: 15px;
+        line-height: 1.5;
+        width: 100%;
+        max-width: 220px;
+        margin: auto;
+    }
+
+    /* fin #2/
+    
+    
+    /* #3*/
+
+    .contenedor3{
+        position: relative;
+        top: -810px;
+        left: 720px;
+        width: 100%;
+        display: flex;
+        justify-content: left;
+        align-items: left;
+        height: 100vh;
+       
+    }
+    .contenedor3 figure{
+       position:relative;
+        height: 250px;
+        cursor: pointer;
+        width: 350px;
+        overflow: hidden;
+        border-radius: 6px;
+        box-shadow: 0px 15px 25px rgba(0,0,0,0.50);
+       
+    }
+    .contenedor3 figure img{
+        width: 100%;
+        height: 100%;
+        transition: all 500ms ease-out;
+    }
+    .contenedor3 figure .capa{
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0,103,123,0.7);
+        transition: all 500ms ease-out;
+        opacity: 0;
+        visibility: hidden;
+       text-align: center;
+    }
+    .contenedor3 figure:hover > .capa {
+        opacity: 1;
+        visibility: visible;
+    }
+    .contenedor3 figure:hover > .capa h3{
+        margin-top: 70px;
+        margin-bottom: 15px;
+    }
+    .contenedor3 figure:hover > img{
+        transform: scale(1.3);
+    }
+    .contenedor3 figure .capa h3{
+        color: #fff;
+        font-weight: 400;
+        margin-bottom: 120px;
+        transition: all 500ms ease-out;
+         margin-top: 30px;
+    }
+    .contenedor3 figure .capa p{
+        color: #fff;
+        font-size: 15px;
+        line-height: 1.5;
+        width: 100%;
+        max-width: 220px;
+        margin: auto;
+    }
+
+
+    /*fin #3*/
+    
+    
+  /* #4*/
+
+  .contenedor4{
+    position: relative; 
+    top: -1050px;
+    left: 7px;
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    height: 100vh;
+   
+}
+.contenedor4 figure{
+   position:relative;
+    height: 250px;
+    cursor: pointer;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 25px rgba(0,0,0,0.50);
+   
+}
+.contenedor4 figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.contenedor4 figure .capa{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,103,123,0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+   text-align: center;
+}
+.contenedor4 figure:hover > .capa {
+    opacity: 1;
+    visibility: visible;
+}
+.contenedor4 figure:hover > .capa h3{
+    margin-top: 70px;
+    margin-bottom: 15px;
+}
+.contenedor4 figure:hover > img{
+    transform: scale(1.3);
+}
+.contenedor4 figure .capa h3{
+    color: #fff;
+    font-weight: 400;
+    margin-bottom: 120px;
+    transition: all 500ms ease-out;
+     margin-top: 30px;
+}
+.contenedor4 figure .capa p{
+    color: #fff;
+    font-size: 15px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+
+
+/*fin #4*/
+
+
+    /* #5 */
+
+  .contenedor5{
+    width: 100%;
+    position: relative;
+    top: -1555px;
+    left: 363px;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    height: 100vh;
+   
+}
+.contenedor5 figure{
+   position:relative;
+    height: 250px;
+    cursor: pointer;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 25px rgba(0,0,0,0.50);
+   
+}
+.contenedor5 figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.contenedor5 figure .capa{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,103,123,0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+   text-align: center;
+}
+.contenedor5 figure:hover > .capa {
+    opacity: 1;
+    visibility: visible;
+}
+.contenedor5 figure:hover > .capa h3{
+    margin-top: 70px;
+    margin-bottom: 15px;
+}
+.contenedor5 figure:hover > img{
+    transform: scale(1.3);
+}
+.contenedor5 figure .capa h3{
+    color: #fff;
+    font-weight: 400;
+    margin-bottom: 120px;
+    transition: all 500ms ease-out;
+     margin-top: 30px;
+}
+.contenedor5 figure .capa p{
+    color: #fff;
+    font-size: 15px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+
+
+/*fin #5*/
+
+
+      /* #6 */
+
+  .contenedor6{
+    width: 100%;
+    position: relative;
+    top: -2058px;
+    left: 720px;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    height: 100vh;
+   
+}
+.contenedor6 figure{
+   position:relative;
+    height: 250px;
+    cursor: pointer;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 25px rgba(0,0,0,0.50);
+   
+}
+.contenedor6 figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.contenedor6 figure .capa{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,103,123,0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+   text-align: center;
+}
+.contenedor6 figure:hover > .capa {
+    opacity: 1;
+    visibility: visible;
+}
+.contenedor6 figure:hover > .capa h3{
+    margin-top: 70px;
+    margin-bottom: 15px;
+}
+.contenedor6 figure:hover > img{
+    transform: scale(1.3);
+}
+.contenedor6 figure .capa h3{
+    color: #fff;
+    font-weight: 400;
+    margin-bottom: 120px;
+    transition: all 500ms ease-out;
+     margin-top: 30px;
+}
+.contenedor6 figure .capa p{
+    color: #fff;
+    font-size: 15px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+}
+
+
+/*fin #6*/
+
+    /* fin imagenes de las recetas con efecto hover */
+
+
+        .pdesa{
+            position: relative;
+            top: -80px;
+            font-size: 18px;
+        }
+        .content-all{
+            position: relative;
+            top: -80px;
+        }
+        .h2desa{
+            position: relative;
+            top: 180px;
+           text-align: center;
+        }
+           /*=======FIN desayuno =====*/
+
+ 
