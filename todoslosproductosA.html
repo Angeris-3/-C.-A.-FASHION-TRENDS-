@@ -1,0 +1,348 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/popper.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="css/sweetalert2.min.css">
+
+    <title>Carrito Compras en JavaScript</title>
+</head>
+<div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 my-4 mx-auto text-center">
+    <h1 class="display-4 mt-4">Todos los  productos</h1>
+</div>
+<!-- pantalones -->
+<div class="container" id="lista-productos">
+    <div class="card-deck mb-3 text-center">
+        
+        <div class="card mb-4 shadow-sm">
+            <div class="card-header">
+                <h4 class="my-0 font-weight-bold">Pantalones Jeans</h4>
+            </div>
+            <div class="card-body">
+                <img src="img/tres.jpg" class="card-img-top">
+                <h1 class="card-title pricing-card-title precio">$ <span class="">500 </span></h1>
+                <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="1">Comprar</a>
+            </div>
+        </div>
+
+        <div class="card mb-4 shadow-sm">
+            <div class="card-header">
+                <h4 class="my-0 font-weight-bold">Pantalones palicios</h4>
+            </div>
+            <div class="card-body">
+                <img src="img/anchos.jpg" class="card-img-top">
+                <h1 class="card-title pricing-card-title precio">$ <span class="">700 C/U</span></h1>
+                <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="2">Comprar</a>
+            </div>
+        </div>
+
+        <div class="card mb-4 shadow-sm">
+            <div class="card-header">
+                <h4 class="my-0 font-weight-bold">jeas</h4>
+            </div>
+            <div class="card-body">
+                <img src="img/doblados.jpg" class="card-img-top">
+                <h1 class="card-title pricing-card-title precio">$ <span class="">450 </span></h1>
+                <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="3">Comprar</a>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="card-deck mb-3 text-center">
+        
+        <div class="card mb-4 shadow-sm">
+            <div class="card-header">
+                <h4 class="my-0 font-weight-bold">Falda negra</h4>
+            </div>
+            <div class="card-body">
+                <img src="img/falda negra.jpg" class="card-img-top">
+                <h1 class="card-title pricing-card-title precio">$ <span class="">1000 </span></h1>
+                <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="4">Comprar</a>
+            </div>
+        </div>
+
+        <div class="card mb-4 shadow-sm">
+            <div class="card-header">
+                <h4 class="my-0 font-weight-bold">Falda Jeans raspada/h4>
+            </div>
+            <div class="card-body">
+                <img src="img/falda rota.jpg" class="card-img-top">
+                <h1 class="card-title pricing-card-title precio">$ <span class="">500 C/U</span></h1>
+                <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="5">Comprar</a>
+            </div>
+        </div>
+
+        <div class="card mb-4 shadow-sm">
+            <div class="card-header">
+                <h4 class="my-0 font-weight-bold">Falda de cuadritos</h4>
+            </div>
+            <div class="card-body">
+                <img src="img/cuadros.jpg" class="card-img-top">
+                <h1 class="card-title pricing-card-title precio">$ <span class="">800 C/U</span></h1>
+                <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="6">Comprar</a>
+            </div>
+        </div>
+
+    </div>
+    <!-- FIn de pantalones-->
+
+    <!-- blusas -->
+
+    <div class="card-deck mb-3 text-center">
+        
+        <div class="card mb-4 shadow-sm">
+            <div class="card-header">
+                <h4 class="my-0 font-weight-bold">Top rosa</h4>
+            </div>
+            <div class="card-body">
+                <img src="img/blusa rosa.jpg" class="card-img-top">
+                <h1 class="card-title pricing-card-title precio">$ <span class="">400 C/U</span></h1>
+                <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="7">Comprar</a>
+            </div>
+        </div>
+
+        <div class="card mb-4 shadow-sm">
+            <div class="card-header">
+                <h4 class="my-0 font-weight-bold">Roja con rosas</h4>
+            </div>
+            <div class="card-body">
+                <img src="img/blusa flores.jpg" class="card-img-top">
+                <h1 class="card-title pricing-card-title precio">$ <span class="">300 C/U</span></h1>
+                <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="8">Comprar</a>
+            </div>
+        </div>
+
+        <div class="card mb-4 shadow-sm">
+            <div class="card-header">
+                <h4 class="my-0 font-weight-bold">Blusa con vuelo</h4>
+            </div>
+            <div class="card-body">
+                <img src="img/con vuelo.jpg" class="card-img-top">
+                <h1 class="card-title pricing-card-title precio">$ <span class="">800 C/U</span></h1>
+                <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="9">Comprar</a>
+            </div>
+        </div>
+        
+
+    </div>
+
+
+</div>
+<div class="card-deck mb-3 text-center">
+        
+    <div class="card mb-4 shadow-sm">
+        <div class="card-header">
+            <h4 class="my-0 font-weight-bold">Blusa mangas largas</h4>
+        </div>
+        <div class="card-body">
+            <img src="img/blusa mangalarga.jpg" class="card-img-top">
+            <h1 class="card-title pricing-card-title precio">$<span class="">450 C/U</span></h1>
+            <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="7">Comprar</a>
+        </div>
+    </div>
+
+    <div class="card mb-4 shadow-sm">
+        <div class="card-header">
+            <h4 class="my-0 font-weight-bold">Blusa Elegante </h4> 
+        </div>
+        <div class="card-body">
+            <img src="img/elegante2.jpg" class="card-img-top">
+            <h1 class="card-title pricing-card-title precio">$ <span class="">600 C/U</span></h1>
+            <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="8">Comprar</a>
+        </div>
+    </div>
+
+    <div class="card mb-4 shadow-sm">
+        <div class="card-header">
+            <h4 class="my-0 font-weight-bold">Blusa blanca</h4>
+        </div>
+        <div class="card-body">
+            <img src="img/blanca 2.jpg" class="card-img-top">
+            <h1 class="card-title pricing-card-title precio">$ <span class="">500 C/U</span></h1>
+            <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="9">Comprar</a>
+        </div>
+    </div>
+    
+
+</div>
+
+
+</div>
+<!-- Fin de blusa-->
+
+<!--sapatillas y vestidos -->
+<div class="card-deck mb-3 text-center">
+        
+    <div class="card mb-4 shadow-sm">
+        <div class="card-header">
+            <h4 class="my-0 font-weight-bold">Vestido rojo</h4>
+        </div>
+        <div class="card-body">
+            <img src="img/rojo mangas corta.jpg" class="card-img-top">
+            <h1 class="card-title pricing-card-title precio">$ <span class="">550 C/U</span></h1>
+            <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="7">Comprar</a>
+        </div>
+    </div>
+
+    <div class="card mb-4 shadow-sm">
+        <div class="card-header">
+            <h4 class="my-0 font-weight-bold">vestido negro</h4>
+        </div>
+        <div class="card-body">
+            <img src="img/negrooooo.jpg" class="card-img-top">
+            <h1 class="card-title pricing-card-title precio">$ <span class="">900 C/U</span></h1>
+            <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="8">Comprar</a>
+        </div>
+    </div>
+
+    <div class="card mb-4 shadow-sm">
+        <div class="card-header">
+            <h4 class="my-0 font-weight-bold">Vestido largo</h4>
+        </div>
+        <div class="card-body">
+            <img src="img/verde limon.jpg" class="card-img-top">
+            <h1 class="card-title pricing-card-title precio">$<span class="">500C/U</span></h1>
+            <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="9">Comprar</a>
+        </div>
+    </div>
+    
+
+</div>
+
+
+</div>
+<div class="card-deck mb-3 text-center">
+    
+<div class="card mb-4 shadow-sm">
+    <div class="card-header">
+        <h4 class="my-0 font-weight-bold">Tacones finos/h4>
+    </div>
+    <div class="card-body">
+        <img src="img/tacos finos.jpg" class="card-img-top">
+        <h1 class="card-title pricing-card-title precio">$ <span class="">1450 C/U</span></h1>
+        <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="7">Comprar</a>
+    </div>
+</div>
+
+<div class="card mb-4 shadow-sm">
+    <div class="card-header">
+        <h4 class="my-0 font-weight-bold"> Tacones rojo vino </h4>
+    </div>
+    <div class="card-body">
+        <img src="img/rojos vinos.jpg" class="card-img-top">
+        <h1 class="card-title pricing-card-title precio">$ <span class="">1200 C/U</span></h1>
+        <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="8">Comprar</a>
+    </div>
+</div>
+
+<div class="card mb-4 shadow-sm">
+    <div class="card-header">
+        <h4 class="my-0 font-weight-bold">Tacones dorados</h4>
+    </div>
+    <div class="card-body">
+        <img src="img/dorada sapatillas.jpg" class="card-img-top">
+        <h1 class="card-title pricing-card-title precio">$ <span class="">1500 C/U</span></h1>
+        <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="9">Comprar</a>
+    </div>
+</div>
+
+
+</div>
+
+
+</div>
+<!-- vestididos y zapatilla -->
+
+<!-- tenis-->
+<div class="container" id="lista-productos">
+    <div class="card-deck mb-3 text-center">
+        
+        <div class="card mb-4 shadow-sm">
+            <div class="card-header">
+                <h4 class="my-0 font-weight-bold">Blacos</h4>
+            </div>
+            <div class="card-body">
+                <img src="img/tenis blanco y negro.jpg" class="card-img-top">
+                <h1 class="card-title pricing-card-title precio">$ <span class="">2800 C/U</span></h1>
+                <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="1">Comprar</a>
+            </div>
+        </div>
+
+        <div class="card mb-4 shadow-sm">
+            <div class="card-header">
+                <h4 class="my-0 font-weight-bold">Personalisados</h4>
+            </div>
+            <div class="card-body">
+                <img src="img/tenis mariposa.jpg" class="card-img-top">
+                <h1 class="card-title pricing-card-title precio">$ <span class="">1500 C/U</span></h1>
+                <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="2">Comprar</a>
+            </div>
+        </div>
+
+        <div class="card mb-4 shadow-sm">
+            <div class="card-header">
+                <h4 class="my-0 font-weight-bold">Tenis con flores</h4>
+            </div>
+            <div class="card-body">
+                <img src="img/tenis flores.jpg" class="card-img-top">
+                <h1 class="card-title pricing-card-title precio">$ <span class="">2500C/U</span></h1>
+                <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="3">Comprar</a>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="card-deck mb-3 text-center">
+        
+        <div class="card mb-4 shadow-sm">
+            <div class="card-header">
+                <h4 class="my-0 font-weight-bold">Tenis blancos </h4>
+            </div>
+            <div class="card-body">
+                <img src="img/TENI1.jpg" class="card-img-top">
+                <h1 class="card-title pricing-card-title precio">$ <span class="">3000 C/U</span></h1>
+                <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="4">Comprar</a>
+            </div>
+        </div>
+
+        <div class="card mb-4 shadow-sm">
+            <div class="card-header">
+                <h4 class="my-0 font-weight-bold">Tenis altos</h4>
+            </div>
+            <div class="card-body">
+                <img src="img/tenis blanco y rosado.jpg" class="card-img-top">
+                <h1 class="card-title pricing-card-title precio">$ <span class="">1000 C/U</span></h1>
+                <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="5">Comprar</a>
+            </div>
+        </div>
+
+        <div class="card mb-4 shadow-sm">
+            <div class="card-header">
+                <h4 class="my-0 font-weight-bold">Tenis rosa y blanco</h4>
+            </div>
+            <div class="card-body">
+                <img src="img/tenis rosa blanco.jpg" class="card-img-top">
+                <h1 class="card-title pricing-card-title precio">$ <span class="">2ooo C/U</span></h1>
+                <a href="" class="btn btn-block btn-primary agregar-carrito" data-id="6">Comprar</a>
+            </div>
+        </div>
+
+    </div>
+    <!-- FIn de tenis -->
+
+
+</main>
+
+<script src="js/jquery-3.4.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/sweetalert2.min.js"></script>
+<script src="js/carrito.js"></script>
+<script src="js/pedido.js"></script>
+
+</body>
+
+</html>
